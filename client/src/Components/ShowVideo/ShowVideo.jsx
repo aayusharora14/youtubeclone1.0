@@ -9,7 +9,7 @@ function ShowVideo({ vid }) {
             <Link to={`/videopage/${vid?._id}`}>
                 <video
                     src={`http://localhost:5500/${vid.filePath}`}
-                    //src={`https://youtubeclone5031.herokuapp.com/${vid.filePath}`}
+                    //src={`https://youtubeclone1-by-aayush.onrender.com/${vid.filePath}`}
                     className="video_ShowVideo"
                 />
             </Link>
